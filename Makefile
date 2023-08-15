@@ -7,4 +7,4 @@ clean:
 
 build: clean
 	mkdir -p target
-	pex . --disable-cache -r requirements.txt -o target/db_pex.pex --python=$(PYTHON)
+	pex . --disable-cache -r requirements.txt -c test.py -o target/db_pex.pex --python=$(PYTHON) 
