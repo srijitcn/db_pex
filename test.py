@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from db_pex.model import PexModel
 from sklearn import datasets
 import numpy as np
